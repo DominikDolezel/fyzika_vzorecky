@@ -5,6 +5,12 @@
 \usepackage{amsmath}
 \usepackage{multicol}
 \usepackage{amsfonts}
+\usepackage{caption}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{tikzit}
+\input{styly.tikzstyles}
 
 \begin{document}
 \section{Kinematika}
@@ -131,6 +137,28 @@ $\Delta U=\frac{i}{2}nR\Delta T$
         \item[$iv.$] adiabatický: $Q=0$ a $p\cdot V^\kappa = \textrm{konst}$, kde $\kappa = 1+\frac{2}{i}$
     \end{description}
 \end{multicols}
+
+\section{Mechanika tekutin}
+\begin{multicols}{2}
+\noindent $W_1=F_1x_1$\\
+$p=h\rho g$\\
+$F_V=V\rho g$\\
+$Q_V=\frac{V}{t}$\\
+$S_1v_1=S_2v_2$\\
+$E_T=p\Delta V$\\
+$h = \textrm{konst} \Rightarrow \frac{1}{2}\rho v^2 + p=\textrm{konst}$\\
+$v=\sqrt{2hg}$\\
+$d=2\sqrt{h\cdot h^\prime}$\\
+$F_{ODP}=\frac{1}{2}CS\rhov^2$, kde $\rho$ je prostředí\\
+\end{multicols}
+Hodnoty součinitele odporu $C$ pro vybraná tělesa:
+\begin{center}
+\begin{tabular}{ c c c c c}
+ \scalebox{1}{\tikzfig{miska}}  & \scalebox{1}{\tikzfig{obr_miska}} & \scalebox{1}{\tikzfig{koule}} & \scalebox{1}{\tikzfig{cara}} & \scalebox{0.9}{\tikzfig{kridlo}}\\\\
+ 1,33 & 0,34 & \hspace{0.4cm}0,48 & \hspace{0.4cm}1,12 & 0,03
+\end{tabular}
+\end{center}
+
 
 
 \end{document}
