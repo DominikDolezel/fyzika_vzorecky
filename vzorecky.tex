@@ -11,6 +11,10 @@
 \usepackage{caption}
 \usepackage{tikzit}
 \input{styly.tikzstyles}
+\usepackage{titlesec}
+
+\titlespacing\section{0pt}{0pt plus 0pt minus 0pt}{0pt plus 0pt minus 0pt}
+\setlength{\multicolsep}{5pt plus 2.0pt minus 2pt}% 50% of original values
 
 \begin{document}
 \section{Kinematika}
@@ -45,6 +49,7 @@ $P=F\cdot v$ (okamžitý výkon)\\
 $P_0=\frac{\Delta E}{\Delta t}$ (příkon)\\
 $\eta=\frac{P}{P_0}$ (účinnost)\\
 \end{multicols}
+
 
 \noindent Dokonale pružná srážka:
 \begin{multicols}{2}
@@ -111,7 +116,7 @@ $Q = mc\Delta t$\\
 $\Delta l = l_0 \alpha \Delta t$\\
 $l = l_0(\alpha\Delta t + 1)$\\
 $\Delta V = V_0 \beta \Delta t$\\
-$V = V_0(\beta\Delta t + 1)$
+$V = V_0(\beta\Delta t + 1)$, kde
 $\beta = 3\alpha$ \\
 $\rho = \rho _0 (1 - \beta \Delta t)$
 \end{multicols}
@@ -152,14 +157,13 @@ $v=\sqrt{2hg}$\\
 $d=2\sqrt{h\cdot h^\prime}$\\
 $F_{ODP}=\frac{1}{2}CS\rho v^2$, kde $\rho$ je prostředí
 \end{multicols}
-Hodnoty součinitele odporu $C$ pro vybraná tělesa:
+\vspace{-0.2cm}Hodnoty součinitele odporu $C$ pro vybraná tělesa:
 \begin{center}
 \begin{tabular}{ c c c c c}
  \scalebox{1}{\tikzfig{miska}}  & \scalebox{1}{\tikzfig{obr_miska}} & \scalebox{1}{\tikzfig{koule}} & \scalebox{1}{\tikzfig{cara}} & \scalebox{0.9}{\tikzfig{kridlo}}\\\\
  1,33 & 0,34 & \hspace{0.4cm}0,48 & \hspace{0.4cm}1,12 & 0,03
 \end{tabular}
 \end{center}
-
 
 \section{Struktura a vlastnosti kapalin}
 \begin{multicols}{2}
@@ -169,6 +173,13 @@ $p_k=\frac{2\sigma}{r}$\\
 $V = V_0(1+\beta \Delta t)$
 \end{multicols}
 
+\section{Struktura a vlastnosti pevných látek}
+\begin{multicols}{2}
+\noindent$\sigma = \frac{F}{S}$\\
+$\Delta l = l-l_0$\\
+$\varepsilon = \frac{\Delta t}{l_0}$ ... relativní prodloužení\\
+$\sigma = E\cdot \varepsilon$
+\end{multicols}
 
 
 
