@@ -13,12 +13,12 @@
 \input{styly.tikzstyles}
 \usepackage{titlesec}
 
-\titlespacing\section{0pt}{0pt plus 0pt minus 0pt}{0pt plus 0pt minus 0pt}
+\titlespacing\subsection{0pt}{0pt plus 0pt minus 0pt}{0pt plus 0pt minus 0pt}
 \setlength{\multicolsep}{5pt plus 2.0pt minus 2pt}% 50% of original values
 
 \begin{document}
-\section{Kinematika}
-\begin{multicols}{2}
+\subsection*{Kinematika}
+\begin{multicols}{4}
 \noindent$a=\frac{\Delta v}{t}$\\
 $s=v_0t+\frac{\Delta v t}{2}$\\
 $v=g\cdot t=a\cdot t$\\
@@ -28,19 +28,19 @@ $s=\varphi \cdot r$\\
 $a_D=\frac{v^2}{r}=r\cdot\omega^2$\\
 $\varepsilon = \frac{\Delta \omega}{t}$\\
 $\omega=\omega_0+\varepsilon\cdot t$\\
-$\varphi=\omega_0t+\frac{1}{2}\varepsilon t^2$
+$\varphi=\omega_0t+\frac{1}{2}\varepsilon t^2$\\
 \end{multicols}
 
-\section{Dynamika}
-\begin{multicols}{2}
+\subsection*{Dynamika}
+\begin{multicols}{4}
 \noindent $F=m\cdot a$\\
 $p=m\cdot v$ $\left[kg\cdot m\cdot s^{-1}\right]$\\
 $F=\frac{\Delta p}{t}$\\
 $F_T=F_N\cdot f$
 \end{multicols}
 
-\section{Práce, výkon, energie}
-\begin{multicols}{2}
+\subsection*{Práce, výkon, energie}
+\begin{multicols}{3}
 \noindent $W=\vec{F}\cdot\vec{s}=F\cdot s \cdot \cos{\alpha}$ $[J]$\\
 $E_p=mgh$\\
 $E_k=\frac{1}{2}mv^2$\\
@@ -50,16 +50,17 @@ $P_0=\frac{\Delta E}{\Delta t}$ (příkon)\\
 $\eta=\frac{P}{P_0}$ (účinnost)\\
 \end{multicols}
 
-
 \noindent Dokonale pružná srážka:
 \begin{multicols}{2}
 \noindent $V_1=v_1\cdot \frac{m_1-m_2}{m_1+m_2}+v_2\cdot \frac{2m_2}{m_1+m_2}$\\
 $V_2=v_2\cdot \frac{m_2-m_1}{m_1+m_2}+v_1\cdot \frac{2m_1}{m_1+m_2}$
 \end{multicols}
-\noindent Pozn. Dokonale nepružná srážka -- platí zákon zachování hybnosti.
 
-\section{Radiální gravitační pole}
-\begin{multicols}{2}
+\noindent Pozn. Dokonale nepružná srážka -- platí zákon zachování hybnosti.
+\vspace{3pt}
+
+\subsection*{Radiální gravitační pole}
+\begin{multicols}{3}
 \noindent $F_g=G\frac{m_1m_2}{r^2}$\\
 $\vec{K}=\frac{\vec{F_g}}{m}$ (intenzita grav. pole)\\
 $\frac{T^2}{a^3} = \text{konst}$\\
@@ -71,7 +72,7 @@ $E_p = -G\frac{Mm}{r}$\\
 $G=6,67\cdot 10^{-11}$\\
 \end{multicols}
 
-\section{Vrhy v homogenním gravitačním poli}
+\subsection*{Vrhy v homogenním gravitačním poli}
 \begin{multicols}{2}
 \noindent Osa x:\\
 $v_{0x}=\cos{\alpha}\cdot v_0$\\
@@ -83,17 +84,16 @@ $v_y=v_{0y}-gt$\\
 $y=v_{0y}t-\frac{1}{2}gt^2$
 \end{multicols}
 
-\section{Tuhé těleso}
+\subsection*{Tuhé těleso}
 \begin{multicols}{2}
 \noindent $M = F \cdot a \cdot \sin{\alpha}$ $[Nm]$\\
 $E_r = \frac{1}{2}J\omega ^2$\\
 $J_0$: obruč: $mr^2$, koule: $\frac{2}{5}mr^2$, válec: $\frac{1}{2}mr^2$, tyč: $\frac{1}{12}ml^2$\\
 $J=J_0+md^2$
 \end{multicols}
-\pagebreak
 
-\section{Struktura a vlastnosti látek}
-\begin{multicols}{2}
+\subsection*{Struktura a vlastnosti látek}
+\begin{multicols}{3}
 \noindent $A_r = \frac{m_a}{u}$\\
 $u = 1.66 \cdot 10^{-27} \textrm{ kg}$\\
 $M_r = \frac{m_m}{u}$\\
@@ -105,8 +105,8 @@ $V_m = \frac{V}{n}$ $\left[\textrm{m}^3\cdot\textrm{mol}^{-1}\right]$\\
 $\rho = \frac{M_m}{V_m}$
 \end{multicols}
 
-\section{Termodynamika}
-\begin{multicols}{2}
+\subsection*{Termodynamika}
+\begin{multicols}{4}
 \noindent $\Delta U = Q + W$\\
 $Q = \frac{S\cdot \Delta t \cdot \lambda}{d}\cdot \tau$\\
 $C = \frac{Q}{\Delta t}$ $[J\cdotK^{-1}]$\\
@@ -116,13 +116,13 @@ $Q = mc\Delta t$\\
 $\Delta l = l_0 \alpha \Delta t$\\
 $l = l_0(\alpha\Delta t + 1)$\\
 $\Delta V = V_0 \beta \Delta t$\\
-$V = V_0(\beta\Delta t + 1)$, kde
+$V = V_0(\beta\Delta t + 1)$\\
 $\beta = 3\alpha$ \\
 $\rho = \rho _0 (1 - \beta \Delta t)$
 \end{multicols}
 
 
-\section{Struktura a vlastnosti plynů}
+\subsection*{Struktura a vlastnosti plynů}
 \begin{multicols}{2}
 \noindent$p=\frac{1}{3}\rho v^2$\\
 $E=\frac{i}{2}kT$, kde $k=1,38\cdot 10^{-23}$ $JK^{-1}$\\
@@ -135,7 +135,7 @@ $\Delta U=\frac{i}{2}nR\Delta T$
 \begin{multicols}{}
     \begin{description}
         \vspace{-0.5em}
-        \setlength\itemsep{0.15em}
+        \setlength\itemsep{0.1em}
         \item[$i.$] izotermický: $T=\textrm{konst}$ a $Q=W^\prime$
         \item[$ii.$] izochorický: $V=\textrm{konst}$ a $Q=\Delta U$
         \item[$iii.$] izobarický: $p=\textrm{konst}$ a $W^\prime = p\cdot \Delta V$
@@ -143,7 +143,7 @@ $\Delta U=\frac{i}{2}nR\Delta T$
     \end{description}
 \end{multicols}
 
-\section{Mechanika tekutin}
+\subsection*{Mechanika tekutin}
 \begin{multicols}{2}
 \noindent $W=Fx$\\
 $p=h\rho g$\\
@@ -157,7 +157,7 @@ $v=\sqrt{2hg}$\\
 $d=2\sqrt{h\cdot h^\prime}$\\
 $F_{ODP}=\frac{1}{2}CS\rho v^2$, kde $\rho$ je prostředí
 \end{multicols}
-\vspace{-0.2cm}Hodnoty součinitele odporu $C$ pro vybraná tělesa:
+Hodnoty součinitele odporu $C$ pro vybraná tělesa:
 \begin{center}
 \begin{tabular}{ c c c c c}
  \scalebox{1}{\tikzfig{miska}}  & \scalebox{1}{\tikzfig{obr_miska}} & \scalebox{1}{\tikzfig{koule}} & \scalebox{1}{\tikzfig{cara}} & \scalebox{0.9}{\tikzfig{kridlo}}\\\\
@@ -165,19 +165,19 @@ $F_{ODP}=\frac{1}{2}CS\rho v^2$, kde $\rho$ je prostředí
 \end{tabular}
 \end{center}
 
-\section{Struktura a vlastnosti kapalin}
-\begin{multicols}{2}
+\subsection*{Struktura a vlastnosti kapalin}
+\begin{multicols}{4}
 \noindent $\sigma = \frac{F}{l}$\\
 $W = \sigma \cdot \Delta S$\\
 $p_k=\frac{2\sigma}{r}$\\
 $V = V_0(1+\beta \Delta t)$
 \end{multicols}
 
-\section{Struktura a vlastnosti pevných látek}
-\begin{multicols}{2}
+\subsection*{Struktura a vlastnosti pevných látek}
+\begin{multicols}{4}
 \noindent$\sigma = \frac{F}{S}$\\
 $\Delta l = l-l_0$\\
-$\varepsilon = \frac{\Delta t}{l_0}$ ... relativní prodloužení\\
+$\varepsilon = \frac{\Delta t}{l_0}$ ... rel. prodloužení\\
 $\sigma = E\cdot \varepsilon$
 \end{multicols}
 
